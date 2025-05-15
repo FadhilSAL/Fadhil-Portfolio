@@ -72,7 +72,7 @@ export default function Home({nama}) {
   
 
 
-  <section id="project" className="w-full px-2 text-white mt-9 font-inter">
+  <section id="project" className="w-full px-2 text-white mt-9 font-inter" >
      <h1 className="text-2xl text-center">Proyek</h1>
      <div className="flex  flex-wrap px-2 mt-7">
       <div className="w-150 rounded-md">
@@ -118,7 +118,7 @@ export default function Home({nama}) {
 
 
 
-    <footer className="w-full mt-16 bg-black text-white font-monster p-3 h-80"> 
+    <footer className="w-full mt-16 bg-black text-white font-monster p-3 h-80 " id="contact"> 
       <h1 className="w-full text-center text-2xl">Mari berkolaborasi!</h1>
         <h1 className="text-xl mr-2 mt-4">Kontak Saya</h1>
         <div className="flex items-center">

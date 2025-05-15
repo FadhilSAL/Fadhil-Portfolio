@@ -18,11 +18,11 @@ export default function Navbar(){
      </button>
      <div className="absolute top-15 w-100 h-60  right-0 z-999 lg:hidden">
       <div className="absolute right-0 hidden" id="nav-menu">
-        <ul className=" text-white w-120 justify-around  lg:flex flex-wrap bg-neutral-800 h-50    flex " >
-            <li className="menu-list"><a href="#home">Beranda</a></li>
-            <li className="menu-list"><a href="#about">Tentang Saya</a></li>
-            <li className="menu-list"><a>Proyek</a></li>
-            <li className="menu-list"><a>Hubungi</a></li>
+        <ul className=" text-white w-120 justify-around  lg:flex flex-wrap bg-neutral-800 h-70    flex " >
+            <li className="w-full "><a href="#home" className="menu-list ">Beranda</a></li>
+            <li className="w-full"><a href="#about" className="menu-list">Tentang Saya</a></li>
+            <li className="w-full"><a href="#project" className="menu-list">Proyek</a></li>
+            <li className="w-full"><a href="#contact" className="menu-list">Hubungi</a></li>
     
           </ul>
       </div>

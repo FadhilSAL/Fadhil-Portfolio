@@ -20,5 +20,5 @@
 }
 
 .menu-list{
-  @apply py-2 px-4 w-full hover:bg-black
+  @apply py-6 px-4 w-full hover:bg-black inline-block;
 }
