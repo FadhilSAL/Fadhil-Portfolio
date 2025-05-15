@@ -73,7 +73,7 @@ export default function Home({nama}) {
 
 
   <section id="project" className="w-full px-2 text-white mt-9 font-inter">
-     <h1 className="text-2xl text-center">Project</h1>
+     <h1 className="text-2xl text-center">Proyek</h1>
      <div className="flex  flex-wrap px-2 mt-7">
       <div className="w-150 rounded-md">
         <img src="/project1.png " className="w-full rounded-md"></img>
@@ -114,6 +114,30 @@ export default function Home({nama}) {
    
     <h2 className="bg-white text-center rounded-xl text-xs w-20 mx-auto">Hubungi Saya</h2>
     </div>
+
+
+
+
+    <footer className="w-full mt-16 bg-black text-white font-monster p-3 h-80"> 
+      <h1 className="w-full text-center text-2xl">Mari berkolaborasi!</h1>
+        <h1 className="text-xl mr-2 mt-4">Kontak Saya</h1>
+        <div className="flex items-center">
+      
+          <img src="/email2.png" className="w-14 h-16"/>
+          <p>muhammadfadhilsalasiah@gmail.com</p>
+     
+        </div>
+         <div className="flex items-center">
+      
+          <img src="/telephone.png" className="w-14 h-16"/>
+          <p>+62 838-2149-6415</p>
+   
+        </div>
+
+        <div className="w-full mt-12" >
+           <h1 className="text-xs opacity-30 w-full text-center">@Muhammad Fadhil Akbar,2025</h1>
+        </div>
+    </footer>
   </>
   )
 }
