@@ -13,8 +13,8 @@ export default function Home({nama}) {
         <button className="rounded-md border-white border-1 text-white px-8 py-3 w-50 inline-block font-bold hover:bg-white hover:text-black hover:cursor-pointer">Project</button>
         </div>
       </div>
-      <div className="flex justify-end w-full lg:relative  ">
-        <img src="/ejp.jpg" className="lg:h-140 opacity-60 object-cover lg:w-100  xs:h-80 xs:w-50 " ></img>
+      <div className="flex justify-end w-full lg:relative  bg-white p-2 rounded md  h-90">
+        <img src="/school.jpg" className="lg:h-140  object-cover lg:w-100  xs:h-80 xs:w-50 " ></img>
       
       </div>
    </section>
@@ -26,7 +26,7 @@ export default function Home({nama}) {
             <h1 className="w-full font-semibold text-2xl">Biodata</h1>
             <p className="mt-4 leading-7">
              Saya Muhammmad Fadhil Akbar, Dipanggil Fadhil,  Saya Lahir Pada Tanggal 4 November 2009,
-              Saat Ini Saya Masih Menduduki Bangku SMP, Tinggi Badan Saya 167 Cm, Berat Badan 48 Kg,
+              Saat Ini Saya Masih Menduduki Bangku SMP, Tinggi Badan Saya 168 Cm, Berat Badan 48 Kg,
               Hobi Saya Coding, Saya Telah Belajar Coding Selama 8 Bulan 
             </p>
             
